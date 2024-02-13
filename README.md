@@ -33,7 +33,7 @@ GET http://localhost:3000/api/treasures/{id}
 
 #### Get Treasures by distance
 
-``http
+```http
  GET http://localhost:3000/api/find-treasures
 
 ```
