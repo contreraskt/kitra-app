@@ -3,8 +3,9 @@ KITRA APP
 ## Installation
 
 1. Clone this repository
-2. Create a new database named `kitra_app`
-3. Run `npm install`
+2. Change your directory: `cd kitra_app`
+3. Create a new database named `kitra_app`
+4. Run `npm install`
 4 Run the migration command : `knex migrate:latest --env development`
 5. Run the seeder command : `knex seed:run --env development`
 6. Run the `node app.js`
