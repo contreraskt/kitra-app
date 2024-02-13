@@ -5,10 +5,9 @@ KITRA APP
 1. Clone this repository
 2. Create a new database named `kitra_app`
 3. Run `npm install`
-4. Initialize `knex` by running this command : `knex init`
-5. Run the migration command : `knex migrate:latest --env development`
-6. Run the seeder command : `knex seed:run --env development`
-7. Run the `node app.js`
+4 Run the migration command : `knex migrate:latest --env development`
+5. Run the seeder command : `knex seed:run --env development`
+6. Run the `node app.js`
 
 
 ## API Reference
@@ -33,7 +32,7 @@ GET http://localhost:3000/api/treasures/{id}
 
 #### Get Treasures by distance
 
-```http
+``http
  GET http://localhost:3000/api/find-treasures
 
 ```
